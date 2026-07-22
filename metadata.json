@@ -1,0 +1,6 @@
+{
+  "name": "KAF Digital Office",
+  "description": "كاف ديجيتال أوفيس - مكتب رقمي يجمع بين الهوية البصرية، وتجربة المستخدم، وتطوير الويب لبناء حلول رقمية تصنع الأثر.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
