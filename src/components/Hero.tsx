@@ -62,7 +62,7 @@ export default function Hero() {
               حلول رقمية <br />
               <span className="text-primary-purple relative">
                 تصنع الأثر
-                <span className="absolute bottom-1 right-0 left-0 h-1.5 bg-primary-purple/15 rounded-full"></span>
+                {/* <span className="absolute bottom-1 right-0 left-0 h-1.5 bg-primary-purple/15 rounded-full"></span> */}
               </span>
             </motion.h1>
 

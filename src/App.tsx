@@ -55,7 +55,7 @@ export default function App() {
         {/* 11. Frequently Asked Questions (الأسئلة الشائعة) */}
         <FAQ />
 
-        {/* 12. Project inquiry form (نموذج بدء المشروع) */}
+        {/* 12. Direct contact section (التواصل المباشر) */}
         <ProjectForm />
       </main>
 
@@ -64,7 +64,7 @@ export default function App() {
 
       {/* 14. Non-intrusive Sticky Floating WhatsApp Bubble (Section 20 requirement) */}
       <a
-        href="https://wa.me/966500000000"
+        href="https://wa.me/967734895281?text=مرحبًا%20فريق%20كاف%20ديجيتال،%20أود%20بدء%20محادثة%20بخصوص%20مشروعي.%20اسمي:%20%0Aنبذة%20مختصرة%20عن%20المشروع:%20%0Aالميزانية%20المتوقعة:%20%0Aأفضل%20وقت%20للتواصل:%20"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-40 bg-emerald-500 hover:bg-emerald-600 text-white p-3.5 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 active:scale-95 flex items-center justify-center group focus:outline-none focus:ring-4 focus:ring-emerald-400/30"

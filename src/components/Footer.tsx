@@ -176,10 +176,12 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/966500000000"
+                  href="https://wa.me/967734895281?text=مرحبًا%20فريق%20كاف%20ديجيتال،%20أود%20بدء%20محادثة%20بخصوص%20مشروعي.%20اسمي:%20%0Aنبذة%20مختصرة%20عن%20المشروع:%20%0Aالميزانية%20المتوقعة:%20%0Aأفضل%20وقت%20للتواصل:%20"
                   className="flex items-center gap-2 justify-end text-gray-400 hover:text-white transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <span className="ltr">+966 500000000</span>
+                  <span className="ltr">+967 734895281</span>
                   <Phone className="w-4 h-4 text-emerald-500" />
                 </a>
               </li>
@@ -193,7 +195,7 @@ export default function Footer() {
           
           {/* Copyrights */}
           <div className="text-gray-400 text-center sm:text-right font-medium">
-            <p>© {new Date().getFullYear()} كاف ديجيتال أوفيس KAF Digital official. جميع الحقوق محفوظة.</p>
+            <p>© {new Date().getFullYear()} كاف ديجيتال KAF Digital official. جميع الحقوق محفوظة.</p>
             <p className="text-xs text-gray-500 mt-1">نصمّم الفكرة. نبني التجربة. نصنع الأثر.</p>
           </div>
 

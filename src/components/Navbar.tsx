@@ -88,7 +88,7 @@ export default function Navbar() {
                   KAF <span className="text-primary-purple">Digital official</span>
                 </span>
                 <span className="text-[10px] text-secondary-text font-medium -mt-1">
-                  كاف ديجيتال أوفيس
+                  كاف ديجيتال
                 </span>
               </div>
             </a>
