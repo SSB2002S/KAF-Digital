@@ -75,7 +75,7 @@ export default function App() {
         <MessageCircle className="w-6 h-6 stroke-[2.5]" />
         
         {/* Hover Label */}
-        <span className="absolute left-14 bg-dark-purple text-white text-xs font-bold py-2 px-3 rounded-xl shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none hidden sm:block">
+        <span className="absolute right-14 bg-dark-purple text-white text-xs font-bold py-2 px-3 rounded-xl shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none hidden sm:block">
           تواصل معنا مباشرة عبر واتساب
         </span>
       </a>

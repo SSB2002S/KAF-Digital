@@ -37,7 +37,7 @@ export default function Projects() {
     switch (id) {
       case "tharwah":
         return (
-          <div className="relative w-full h-full bg-gradient-to-br from-purple-600 to-indigo-900 flex flex-col justify-between p-6 overflow-hidden">
+          <div className="relative w-full h-full bg-gradient-to-br from-green-300 to-green-900 flex flex-col justify-between p-6 overflow-hidden">
             <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px] opacity-10"></div>
             <div className="flex justify-between items-center z-10">
               <span className="text-[10px] font-bold bg-white/20 text-white backdrop-blur-md px-2.5 py-1 rounded-full">تطبيق أطفال مالي</span>
@@ -46,14 +46,15 @@ export default function Projects() {
             
             {/* Visual piggybank & coin representation */}
             <div className="my-auto flex flex-col items-center justify-center z-10 relative">
-              <div className="w-20 h-20 bg-white/10 backdrop-blur-md border border-white/20 rounded-full flex items-center justify-center shadow-lg relative animate-bounce">
-                <span className="text-4xl">🪙</span>
-                <span className="absolute -top-1 -right-1 text-lg">🐷</span>
+              <div className="w-20 h-20 bg-white/10 backdrop-blur-md border-4 border-green-300/45 rounded-full flex items-center justify-center shadow-lg relative">
+                {/* <span className="text-4xl">🪙</span> */}
+                <img className="w-full h-full object-cover rounded-full" src="src\assets\projectLogo\ثروة.jpeg" alt="شعار ثروة" />
+                {/* <span className="absolute -top-1 -right-1 text-lg">🐷</span> */}
               </div>
-              <div className="mt-4 flex gap-1 bg-white/25 rounded-full px-3 py-1 text-[10px] text-white font-bold border border-white/10">
+              {/* <div className="mt-4 flex gap-1 bg-white/25 rounded-full px-3 py-1 text-[10px] text-white font-bold border border-white/10">
                 <span>الادخار الحالي:</span>
                 <span className="text-amber-300">١٢٠ ريال</span>
-              </div>
+              </div> */}
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/70 z-10">
@@ -64,7 +65,7 @@ export default function Projects() {
         );
       case "super-go":
         return (
-          <div className="relative w-full h-full bg-gradient-to-br from-amber-400 to-orange-600 flex flex-col justify-between p-6 overflow-hidden">
+          <div className="relative w-full h-full bg-gradient-to-br from-sky-300 to-sky-600 flex flex-col justify-between p-6 overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full bg-black/10 z-0"></div>
             <div className="flex justify-between items-center z-10">
               <span className="text-[10px] font-bold bg-black/30 text-white backdrop-blur-md px-2.5 py-1 rounded-full">هوية سرعة البرق</span>
@@ -72,13 +73,17 @@ export default function Projects() {
             </div>
             
             <div className="my-auto flex flex-col items-center justify-center z-10">
-              <div className="relative w-24 h-12 bg-white rounded-2xl flex items-center justify-center shadow-xl transform rotate-3">
+              {/* <div className="relative w-24 h-12 bg-white rounded-2xl flex items-center justify-center shadow-xl transform rotate-3">
                 <span className="text-2xl font-black text-orange-600">GO!</span>
                 <div className="absolute -bottom-1.5 -right-1.5 w-5 h-5 bg-dark-purple text-white rounded-full flex items-center justify-center text-[10px] font-bold">
                   🏍️
                 </div>
+              </div> */}
+              <div className="w-20 h-20 border-4 border-sky-200/45 bg-white/10 backdrop-blur-md  rounded-full flex items-center justify-center shadow-lg relative">
+                <img className="w-full h-full object-cover rounded-full" src="src\assets\projectLogo\سوبر قو ديلفري.jpeg" alt="شعار سوبر جو" />
+                {/* <span className="absolute -top-1 -right-1 text-lg">🐷</span> */}
               </div>
-              <div className="w-16 h-1 bg-black/20 rounded-full mt-3 blur-xs"></div>
+              {/* <div className="w-16 h-1 bg-black/20 rounded-full mt-3 blur-xs"></div> */}
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/95 z-10 font-bold">
@@ -89,7 +94,7 @@ export default function Projects() {
         );
       case "waraq-nakha":
         return (
-          <div className="relative w-full h-full bg-gradient-to-br from-emerald-800 to-teal-950 flex flex-col justify-between p-6 overflow-hidden">
+          <div className="relative w-full h-full bg-gradient-to-br from-emerald-200 to-teal-800 flex flex-col justify-between p-6 overflow-hidden">
             <div className="absolute inset-0 bg-black/10 z-0"></div>
             <div className="flex justify-between items-center z-10">
               <span className="text-[10px] font-bold bg-white/10 text-emerald-300 border border-emerald-500/20 px-2.5 py-1 rounded-full">علامة أغذية فاخرة</span>
@@ -97,13 +102,14 @@ export default function Projects() {
             </div>
             
             <div className="my-auto flex flex-col items-center justify-center z-10">
-              <div className="w-20 h-20 rounded-full border-4 border-amber-400/45 p-1 relative flex items-center justify-center bg-white/5">
+              <div className="w-20 h-20 rounded-full border-4 border-green-300/45 relative flex items-center justify-center bg-white/5">
                 <div className="w-full h-full rounded-full bg-emerald-900/60 flex items-center justify-center">
-                  <span className="text-3xl">🍋</span>
+                    {/* <span className="text-3xl">🍋</span> */}
+                    <img className="w-full h-full object-cover rounded-full" src="src\assets\projectLogo\ورق ونكهة.jpeg" alt="شعار ورق نكهة" />
                 </div>
-                <div className="absolute -top-1 right-2 text-xl">🍁</div>
+                {/* <div className="absolute -top-1 right-2 text-xl">🍁</div> */}
               </div>
-              <span className="text-amber-400 font-bold text-xs tracking-widest mt-3">طعم أصيل وفاخر</span>
+              {/* <span className="text-amber-400 font-bold text-xs tracking-widest mt-3">طعم أصيل وفاخر</span> */}
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/80 z-10">
@@ -114,39 +120,43 @@ export default function Projects() {
         );
       case "nahaj":
         return (
-          <div className="relative w-full h-full bg-gradient-to-br from-blue-600 to-purple-800 flex flex-col justify-between p-6 overflow-hidden">
-            <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+          <div className="relative w-full h-full bg-gradient-to-br from-green-500 via-green-700 to-green-900 flex flex-col justify-between p-6 overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:18px_18px] opacity-10"></div>
             <div className="flex justify-between items-center z-10">
               <span className="text-[10px] font-bold bg-white/20 text-white backdrop-blur-md px-2.5 py-1 rounded-full">منصة استشارية ذكية</span>
               <span className="text-white font-bold text-xs">نهج 🗺️</span>
             </div>
-            
-            <div className="my-auto w-full z-10 px-4">
-              <div className="bg-white/10 backdrop-blur-md border border-white/10 rounded-xl p-3 flex flex-col gap-2 shadow-lg">
-                <div className="flex justify-between items-center">
-                  <div className="w-8 h-2 bg-white/40 rounded-full"></div>
-                  <div className="w-3 h-3 bg-indigo-400 rounded-full"></div>
-                </div>
-                <div className="h-6 bg-white/20 rounded-lg flex items-center px-2">
-                  <div className="w-full h-1.5 bg-white/40 rounded-full"></div>
-                </div>
-                <div className="grid grid-cols-3 gap-1">
-                  <div className="h-3 bg-white/10 rounded-sm"></div>
-                  <div className="h-3 bg-white/10 rounded-sm"></div>
-                  <div className="h-3 bg-indigo-500/50 rounded-sm"></div>
+
+            <div className="my-auto flex flex-col items-center justify-center z-10 relative">
+              <div className="w-20 h-20 rounded-full border-4 border-sky-200/45 flex items-center justify-center relative">
+                {/* <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-300 to-violet-500 flex items-center justify-center shadow-inner">
+                  <div className="relative w-10 h-10">
+                    <div className="absolute inset-0 rounded-full border-2 border-white/90"></div>
+                    <div className="absolute left-1.5 top-1.5 w-2.5 h-2.5 rounded-full bg-white/90"></div>
+                    <div className="absolute bottom-1 left-2.5 w-4 h-0.5 bg-white/90 rotate-45"></div>
+                    <div className="absolute top-2 right-1.5 w-3 h-0.5 bg-white/70"></div>
+                  </div>
+                </div> */}
+                {/* <span className="absolute -top-1 -right-1 text-lg">🧭</span> */}
+                <div className="w-full h-full rounded-full bg-emerald-900/60 flex items-center justify-center">
+                    <img className="w-full h-full object-cover rounded-full" src="src\assets\projectLogo\نهج.jpeg" alt="شعار نهج" />
                 </div>
               </div>
+              {/* <div className="mt-4 flex gap-1 bg-white/25 rounded-full px-3 py-1 text-[10px] text-white font-bold border border-white/10">
+                <span>تجربة بحث ذكية</span>
+                <span className="text-cyan-200">٤٥٪</span>
+              </div> */}
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/70 z-10">
               <span>تقليل التشتت البصري</span>
-              <span>٤٥٪ زيادة تحويل</span>
+              <span>تحويل أسرع وأكثر سلاسة</span>
             </div>
           </div>
         );
       case "kaf-website":
         return (
-          <div className="relative w-full h-full bg-gradient-to-br from-dark-purple to-black flex flex-col justify-between p-6 overflow-hidden">
+          <div className="relative w-full h-full bg-gradient-to-br from-purple-600 to-dark-purple flex flex-col justify-between p-6 overflow-hidden">
             <div className="absolute inset-0 bg-[radial-gradient(#5635c7_1px,transparent_1px)] [background-size:20px_20px] opacity-35"></div>
             <div className="flex justify-between items-center z-10">
               <span className="text-[10px] font-bold bg-primary-purple/35 text-white border border-primary-purple/35 px-2.5 py-1 rounded-full">الموقع الرسمي</span>
@@ -154,10 +164,13 @@ export default function Projects() {
             </div>
             
             <div className="my-auto flex flex-col items-center justify-center z-10">
-              <div className="w-16 h-16 bg-primary-purple rounded-2xl flex items-center justify-center text-white text-4xl font-extrabold shadow-xl shadow-primary-purple/30 transition-transform hover:scale-105">
+              {/* <div className="w-20 h-20 bg-primary-purple rounded-2xl flex items-center justify-center text-white text-4xl font-extrabold shadow-xl shadow-primary-purple/30 transition-transform hover:scale-105">
                 ك
+              </div> */}
+              <div className="w-20 h-20 bg-white/90 backdrop-blur-md border-4 border-dark-purple rounded-full flex items-center justify-center shadow-lg relative">
+                <img className="w-full h-full object-cover rounded-full" src="src\assets\projectLogo\ايقونة-كاف.png" alt="شعار KAF" />
               </div>
-              <span className="text-[10px] font-mono text-secondary-purple font-bold tracking-widest mt-2">DIGITAL official</span>
+              {/* <span className="text-[10px] font-mono text-purple-200 font-bold tracking-widest mt-2">DIGITAL official</span> */}
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
@@ -283,15 +296,6 @@ export default function Projects() {
                       {/* Interactive Visual Cover */}
                       <div className="w-full aspect-[4/3] relative overflow-hidden">
                         {renderProjectCover(project.id)}
-                        <div className="absolute inset-0 bg-dark-purple/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center backdrop-blur-xs">
-                          <button
-                            onClick={() => setSelectedProject(project)}
-                            className="bg-white text-dark-purple p-3 rounded-full shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 hover:scale-115 cursor-pointer"
-                            aria-label={`استعراض دراسة مشروع ${project.title}`}
-                          >
-                            <Eye className="w-6 h-6 stroke-[2]" />
-                          </button>
-                        </div>
                       </div>
 
                       {/* Info & Copywriting */}

@@ -79,8 +79,8 @@ export default function Navbar() {
               aria-label="KAF Digital official الرئيسية"
             >
               {/* Elegant Custom SVG Logo for KAF representing creative geometry */}
-              <div className="relative w-10 h-10 bg-primary-purple rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-primary-purple/20 transition-transform duration-300 group-hover:scale-105">
-                <span>ك</span>
+              <div className="relative w-10 h-10  rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-primary-purple/20 transition-transform duration-300 group-hover:scale-105">
+                <img src="src\assets\projectLogo\ايقونة-كاف.png" alt="" />
                 <div className="absolute -bottom-1 -left-1 w-3 h-3 bg-secondary-purple rounded-full border-2 border-white"></div>
               </div>
               <div className="flex flex-col">

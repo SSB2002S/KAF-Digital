@@ -161,8 +161,9 @@ export default function Hero() {
 
                 {/* Main Logo Emblem Design */}
                 <div className="relative z-10 flex flex-col items-center justify-center my-auto py-4">
-                  <div className="w-28 h-28 bg-primary-purple rounded-[28px] flex items-center justify-center text-white text-[72px] font-black shadow-2xl shadow-primary-purple/35 relative transition-all duration-300 hover:rotate-3">
-                    <span className="-mt-2 select-none">ك</span>
+                  <div className="w-28 h-28 rounded-[28px] flex items-center justify-center text-white text-[72px] font-black shadow-2xl shadow-primary-purple/35 relative transition-all duration-300 hover:rotate-3">
+                    {/* <span className="-mt-2 select-none">ك</span> */}
+                    <img src="src\assets\projectLogo\Logo.svg" alt="" />
                     {/* Glowing point of visual energy */}
                     <div className="absolute -bottom-1 -left-1 w-6 h-6 bg-secondary-purple rounded-full border-4 border-white shadow-md"></div>
                   </div>
