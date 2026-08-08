@@ -1,8 +1,8 @@
 ﻿import React from "react";
 import { MessageCircle, PhoneCall } from "lucide-react";
 
-const whatsappLink = "https://wa.me/967734895281?text=مرحبًا%20فريق%20كاف%20ديجيتال،%20أود%20بدء%20محادثة%20بخصوص%20مشروعي.%20اسمي:%20%0Aنبذة%20مختصرة%20عن%20المشروع:%20%0Aالميزانية%20المتوقعة:%20%0Aأفضل%20وقت%20للتواصل:%20";
-const whatsappNumber = "+967 734895281";
+const whatsappLink = "https://wa.me/967780095211?text=مرحبًا%20فريق%20كاف%20ديجيتال،%20أود%20بدء%20محادثة%20بخصوص%20مشروعي.%20اسمي:%20%0Aنبذة%20مختصرة%20عن%20المشروع:%20%0Aالميزانية%20المتوقعة:%20%0Aأفضل%20وقت%20للتواصل:%20";
+const whatsappNumber = "+967 780095211";
 
 export default function ProjectForm() {
   return (

@@ -3,6 +3,11 @@ import { Filter, Eye, AlertTriangle, RefreshCw, X, Check, ArrowLeft, Layers, Shi
 import { motion, AnimatePresence } from "motion/react";
 import { PROJECTS_DATA } from "../data";
 import { Project } from "../types";
+import tharwahLogo from "../assets/projectLogo/ثروة.jpeg";
+import superGoLogo from "../assets/projectLogo/سوبر قو ديلفري.jpeg";
+import waraqNakhaLogo from "../assets/projectLogo/ورق ونكهة.jpeg";
+import nahajLogo from "../assets/projectLogo/نهج.jpeg";
+import kafProjectLogo from "../assets/projectLogo/ايقونة-كاف.png";
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -48,7 +53,7 @@ export default function Projects() {
             <div className="my-auto flex flex-col items-center justify-center z-10 relative">
               <div className="w-20 h-20 bg-white/10 backdrop-blur-md border-4 border-green-300/45 rounded-full flex items-center justify-center shadow-lg relative">
                 {/* <span className="text-4xl">🪙</span> */}
-                <img className="w-full h-full object-cover rounded-full" src="src\assets\projectLogo\ثروة.jpeg" alt="شعار ثروة" />
+                <img className="w-full h-full object-cover rounded-full" src={tharwahLogo} alt="شعار ثروة" />
                 {/* <span className="absolute -top-1 -right-1 text-lg">🐷</span> */}
               </div>
               {/* <div className="mt-4 flex gap-1 bg-white/25 rounded-full px-3 py-1 text-[10px] text-white font-bold border border-white/10">
@@ -80,7 +85,7 @@ export default function Projects() {
                 </div>
               </div> */}
               <div className="w-20 h-20 border-4 border-sky-200/45 bg-white/10 backdrop-blur-md  rounded-full flex items-center justify-center shadow-lg relative">
-                <img className="w-full h-full object-cover rounded-full" src="src\assets\projectLogo\سوبر قو ديلفري.jpeg" alt="شعار سوبر جو" />
+                <img className="w-full h-full object-cover rounded-full" src={superGoLogo} alt="شعار سوبر جو" />
                 {/* <span className="absolute -top-1 -right-1 text-lg">🐷</span> */}
               </div>
               {/* <div className="w-16 h-1 bg-black/20 rounded-full mt-3 blur-xs"></div> */}
@@ -105,7 +110,7 @@ export default function Projects() {
               <div className="w-20 h-20 rounded-full border-4 border-green-300/45 relative flex items-center justify-center bg-white/5">
                 <div className="w-full h-full rounded-full bg-emerald-900/60 flex items-center justify-center">
                     {/* <span className="text-3xl">🍋</span> */}
-                    <img className="w-full h-full object-cover rounded-full" src="src\assets\projectLogo\ورق ونكهة.jpeg" alt="شعار ورق نكهة" />
+                    <img className="w-full h-full object-cover rounded-full" src={waraqNakhaLogo} alt="شعار ورق نكهة" />
                 </div>
                 {/* <div className="absolute -top-1 right-2 text-xl">🍁</div> */}
               </div>
@@ -139,7 +144,7 @@ export default function Projects() {
                 </div> */}
                 {/* <span className="absolute -top-1 -right-1 text-lg">🧭</span> */}
                 <div className="w-full h-full rounded-full bg-emerald-900/60 flex items-center justify-center">
-                    <img className="w-full h-full object-cover rounded-full" src="src\assets\projectLogo\نهج.jpeg" alt="شعار نهج" />
+                    <img className="w-full h-full object-cover rounded-full" src={nahajLogo} alt="شعار نهج" />
                 </div>
               </div>
               {/* <div className="mt-4 flex gap-1 bg-white/25 rounded-full px-3 py-1 text-[10px] text-white font-bold border border-white/10">
@@ -168,7 +173,7 @@ export default function Projects() {
                 ك
               </div> */}
               <div className="w-20 h-20 bg-white/90 backdrop-blur-md border-4 border-dark-purple rounded-full flex items-center justify-center shadow-lg relative">
-                <img className="w-full h-full object-cover rounded-full" src="src\assets\projectLogo\ايقونة-كاف.png" alt="شعار KAF" />
+                <img className="w-full h-full object-cover rounded-full" src={kafProjectLogo} alt="شعار KAF" />
               </div>
               {/* <span className="text-[10px] font-mono text-purple-200 font-bold tracking-widest mt-2">DIGITAL official</span> */}
             </div>

@@ -176,12 +176,12 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/967734895281?text=مرحبًا%20فريق%20كاف%20ديجيتال،%20أود%20بدء%20محادثة%20بخصوص%20مشروعي.%20اسمي:%20%0Aنبذة%20مختصرة%20عن%20المشروع:%20%0Aالميزانية%20المتوقعة:%20%0Aأفضل%20وقت%20للتواصل:%20"
+                  href="https://wa.me/967780095211?text=مرحبًا%20فريق%20كاف%20ديجيتال،%20أود%20بدء%20محادثة%20بخصوص%20مشروعي.%20اسمي:%20%0Aنبذة%20مختصرة%20عن%20المشروع:%20%0Aالميزانية%20المتوقعة:%20%0Aأفضل%20وقت%20للتواصل:%20"
                   className="flex items-center gap-2 justify-end text-gray-400 hover:text-white transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="ltr">+967 734895281</span>
+                  <span className="ltr">+967 780095211</span>
                   <Phone className="w-4 h-4 text-emerald-500" />
                 </a>
               </li>
