@@ -5,8 +5,8 @@ import { motion } from "motion/react";
 export default function Footer() {
   const socialLinks = [
     { label: "Behance", href: "https://behance.net", icon: ExternalLink },
-    { label: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
-    { label: "Instagram", href: "https://instagram.com", icon: Instagram },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/kaf-digital-office-88aa4b422/ar", icon: Linkedin },
+    { label: "Instagram", href: "https://www.instagram.com/kaf.digita0fficial?igsh=NGJ0NGdyNzVtcmN4", icon: Instagram },
   ];
 
   const handleScrollToTop = () => {
